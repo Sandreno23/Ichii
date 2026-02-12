@@ -10,8 +10,8 @@ const nama1 = document.querySelectorAll('.nama h2')[1]
 const waktu = document.getElementById('waktu')
 const jam = waktu.querySelector('h1')
 const hari = waktu.querySelector('p')
-const bg1 = document.querySelector('.background1')
-const bg2 = document.querySelector('.background2')
+const bg1 = document.querySelector('.bg1')
+const bg2 = document.querySelector('.bg2')
 const body = document.querySelector('.body')
 const audio = document.querySelector('.audio')
 
@@ -31,7 +31,7 @@ jam.innerHTML = `${hour}:${minutes}`
 // Dirubah 
 const pengirim = "Mass Crush S";
 const nomorWa = "6281287200952" // awalan nomor 0 harus di awalin 62
-const textWa = "Ah bisa aja kamu"
+const textWa = " Syalomm, Ah bisa aja kamu"
 const pesan = `Pada akhirnya kita berdua menjadi dua orang penjahat: Kamu yang dengan hebatnya bisa mencuri hatiku, begitu juga aku pasti akan berhasil mencuri hatimu`;
 
 if (pengirim) {
