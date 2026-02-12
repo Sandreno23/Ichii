@@ -15,7 +15,7 @@ const bg2 = document.querySelector('.bg2')
 const body = document.querySelector('.body')
 const audio = document.querySelector('.audio')
 
-body.classList.add('background1')
+body.classList.add('bg1')
 
 const date = new Date()
 const hour = String(date.getHours()).padStart(2, '0')
@@ -84,7 +84,7 @@ hilang1.addEventListener('click', () => {
         setTimeout(typeWriter, speed)
       } else {
         messege2.classList.add('kelip')
-        body.classList.replace('background1', 'background2')
+        body.classList.replace('bg1', 'bg2')
         body.classList.add('muncul')
         hilang2.style.display = "block"
       }
